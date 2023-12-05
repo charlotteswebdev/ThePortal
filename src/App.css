@@ -1,14 +1,20 @@
 .App {
   text-align: center;
 }
-
+@font-face {
+  font-family: 'ds_digital';
+  src: url('C:\Users\96mck\.vscode\LogInLogOut\src\components\font\ds_digital\DS-DIGI.TTF');
+}
 .App-header {
+  background-image: url('C:\\Users\\96mck\\.vscode\\LogInLogOut\\src\\components\\images\\zoltan-tasi-O_mBXldZ0hc-unsplash.jpg');
+  background-size: cover;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
 }

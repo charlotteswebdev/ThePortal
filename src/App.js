@@ -1,8 +1,8 @@
-// App.js
 import React, { useState } from 'react';
 import './App.css';
 import Button from './components/button/button';
 import ErrorPage from './components/error_page/errorPage';
+import SuccessPage from './components/success_page/successPage';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -23,8 +23,8 @@ function App() {
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    setUsername(''); 
-    setPassword(''); 
+    setUsername('');
+    setPassword('');
   };
 
   const handleKeyPress = (event) => {
@@ -34,21 +34,16 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className={isLoggedIn ? 'success-container' : 'App'}>
       <header className="App-header">
         {isLoggedIn ? (
-          <>
-            <h1>Login Successful!</h1>
-            <h3>CLick below to log out</h3>
-            <button type="button" onClick={handleLogout}>
-              Logout
-            </button>
-          </>
+          <SuccessPage onLogout={handleLogout} />
         ) : error ? (
           <ErrorPage onBack={() => setError('')} />
         ) : (
           <>
-            <h1>Welcome to the Portal</h1>
+            <h1>Welcome to the Portal!</h1>
+            <h4>Please enter your username and password to login:</h4>
             <input
               type="text"
               placeholder="Username"
