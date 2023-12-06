@@ -1,15 +1,15 @@
 /* custom font */
 @font-face {
   font-family: 'ds_digital'; 
-  src: url('components/font/ds_digital/DS-DIGI.TTF');
+  src: url('../font/ds_digital/DS-DIGI.TTF');
 }
 
 .error-page-container {
-  background-image: url('components/images/lego_background.jpg');
+  background-image: url('../images/lego_background.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh; /* height to cover the viewport */
-  width: 100vw; /* width to cover the viewport */
+  height: 100vh;
+  width: 100vw;
   font-family: 'ds_digital';
   font-weight: bold;
   color: red;
@@ -19,7 +19,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .error-message {
   font-family: 'ds_digital';
