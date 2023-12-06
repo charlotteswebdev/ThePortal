@@ -28,7 +28,7 @@ function App() {
 
   const handleLogin = () => {
     //sample username and password
-    const isValidUser = username === '1' && password === '1';
+    const isValidUser = username === 'charlotte' && password === 'mcknight';
 
     if (isValidUser) {
       setIsLoggedIn(true);
