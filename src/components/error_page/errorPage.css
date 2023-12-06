@@ -1,14 +1,15 @@
+/* custom font */
 @font-face {
-  font-family: 'ds_digital';
+  font-family: 'ds_digital'; 
   src: url('C:\Users\96mck\.vscode\LogInLogOut\src\components\font\ds_digital\DS-DIGI.TTF');
 }
 
 .error-page-container {
-  background-image: url('C:\\Users\\96mck\\.vscode\\LogInLogOut\\src\\components\\images\\nik-fDaUCTp28dA-unsplash.jpg');
+  background-image: url('C:\Users\96mck\.vscode\LogInLogOut\src\components\images\lego_background.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Set the height to cover the viewport */
-  width: 100vw; /* Set the width to cover the viewport */
+  height: 100vh; /* height to cover the viewport */
+  width: 100vw; /* width to cover the viewport */
   font-family: 'ds_digital';
   font-weight: bold;
   color: red;

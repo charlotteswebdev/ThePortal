@@ -6,7 +6,7 @@ const SuccessPage = ({ onLogout }) => {
     <div className="success-container">
       <h1>Login Successful!</h1>
       <h3>Click below to log out</h3>
-      <button type="button" onClick={onLogout}>
+      <button className="logout-button" type="button" onClick={onLogout}>
         Logout
       </button>
     </div>

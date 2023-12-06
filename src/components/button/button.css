@@ -1,10 +1,10 @@
 .myButton {
-    font-weight: bold;
-    background-color: mintcream;
-    color:rgb(150, 194, 150);
-    border: 2px solid;
-    border-radius: 20px;
+    background-color:rgb(150, 194, 150); 
+    color: mintcream;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
     font-size: medium;
+    cursor: pointer;
+    margin-top: 10px;
     }
-    
-    
