@@ -5,7 +5,7 @@
 }
 
 .error-page-container {
-  background-image: url('C:\Users\96mck\.vscode\LogInLogOut\src\components\images\lego_background.jpg');
+  background-image: url('components/images/lego_background.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh; /* height to cover the viewport */
