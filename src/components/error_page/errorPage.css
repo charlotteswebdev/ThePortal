@@ -1,7 +1,7 @@
 /* custom font */
 @font-face {
   font-family: 'ds_digital'; 
-  src: url('C:\Users\96mck\.vscode\LogInLogOut\src\components\font\ds_digital\DS-DIGI.TTF');
+  src: url('components/font/ds_digital/DS-DIGI.TTF');
 }
 
 .error-page-container {
