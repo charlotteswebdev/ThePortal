@@ -1,31 +1,32 @@
+/* custom font */
 @font-face {
   font-family: 'celebrater';
-  src: url('components/font/celebrater/Celebrater_Personal_Use_Demo.ttf');
+  src: url('../font/celebrater/Celebrater_Personal_Use_Demo.ttf');
 }
 
 .success-container {
-    background-image: url('components/images/balloon_background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'celebrater';
-    text-shadow: 3px 2px #FF7E4C;
-    letter-spacing: 5px; 
-    color: white;
-  }
+  background-image: url('../images/balloon_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'celebrater';
+  text-shadow: 3px 2px #FF7E4C;
+  letter-spacing: 5px; 
+  color: white;
+}
 
-  .logout-button {
-    background-color:#FF7E4C; 
-    color: #0C107E;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: medium;
-    cursor: pointer;
-  }
+.logout-button {
+  background-color: #FF7E4C; 
+  color: #0C107E;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+}
