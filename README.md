@@ -1,2 +1,1 @@
-# LogInLogOut
-React web app for user login. CFG Full-Stack homework week 3.
+A mini React app that employs the useState hook to effectively manage user login and logout. The app dynamically updates its state based on the entered username and password, guiding users through different screens such as welcome, successful login, and a screen for failed login errors.
