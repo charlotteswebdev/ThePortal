@@ -1,14 +1,12 @@
 import React from 'react';
-import './successPage.css';
+import './successPage.css'; // Import the CSS for SuccessPage
 
-const SuccessPage = ({ onLogout }) => {
+const SuccessPage = ({ onLogout, username }) => {
   return (
-    <div className="success-container">
+    <div className="success-container"> 
       <h1>Login Successful!</h1>
-      <h3>Click below to log out</h3>
-      <button className="logout-button" type="button" onClick={onLogout}>
-        Logout
-      </button>
+      <h1>Welcome, {username || 'Guest'}!</h1>
+      <button className="logout-button" onClick={onLogout}>Logout</button>
     </div>
   );
 };
