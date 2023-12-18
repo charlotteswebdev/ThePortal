@@ -1,0 +1,37 @@
+/* custom font */
+@font-face {
+  font-family: 'ds_digital'; 
+  src: url('../font/ds_digital/DS-DIGI.TTF');
+}
+
+.error-page-container {
+  background-image: url('../images/lego_background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'ds_digital';
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  font-family: 'ds_digital';
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.back-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
