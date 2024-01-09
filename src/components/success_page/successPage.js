@@ -1,7 +1,20 @@
 import React from 'react';
-import './successPage.css'; // Import the CSS for SuccessPage
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import * as authActions from '../../authActions';
+import './successPage.css';
 
-const SuccessPage = ({ onLogout, username }) => {
+const SuccessPage = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const username = useSelector((state) => state.username); // Access username from Redux store
+
+  const onLogout = () => {
+    dispatch(authActions.logout());
+    dispatch(authActions.clearError());
+    navigate('/');
+  };
+
   return (
     <div className="success-container"> 
       <h1>Login Successful!</h1>

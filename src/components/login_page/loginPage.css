@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .App {
+    text-align: center;
+  }
+  
+  .welcome-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #9b7f65;
+  }
+  
+  .App-header {
+    background-image: url('../images/portal_background.jpg');
+    background-size: cover;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'arial', sans-serif;
+    color: white;
+  }
+
+  .myButton {
+    background-color:rgb(150, 194, 150); 
+    color: mintcream;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 10px;
+    }

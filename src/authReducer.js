@@ -1,7 +1,7 @@
 const initialState = {
   isLoggedIn: false,
   username: '',
-  password: '', // Add password to the initial state
+  password: '', 
   error: '',
 };
 
@@ -12,7 +12,7 @@ const authReducer = (state = initialState, action) => {
         ...state,
         isLoggedIn: true,
         username: action.payload,
-        password: 'mcknight', // Set the password when logging in
+        password: 'mcknight', 
         error: '',
       };
     case 'LOGOUT':
